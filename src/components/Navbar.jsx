@@ -4,7 +4,6 @@ import useSticky from 'hooks/useSticky';
 import Image from 'next/image.js';
 import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
-import vvkLogo from '../assets/images/vvkLogo.png';
 
 /**
  * Navbar component with sticky behavior, offcanvas menu, and responsive layout.
@@ -31,8 +30,7 @@ const Navbar = ({
   const router = useRouter();
 
   // Class name for fixed sticky navbar version
-  const fixedClassName =
-    'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
+  const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
 
   const navLinkClass = (path, color) =>
     `nav-link nav-paint nav-paint-${color}${router.pathname === path ? ' active' : ''}`;
@@ -40,28 +38,18 @@ const Navbar = ({
   // Navbar main content: logo, offcanvas menu, hamburger button
   const headerContent = (
     <Fragment>
-      {/* Navbar brand/logo */}
+      {/* Navbar brand/logo */} 
       <div className="navbar-brand w-100">
         <NextLink
           href="/"
           title={
-            <Image
-              unoptimized={true}
-              alt="Logo | vvk construction"
-              src={vvkLogo}
-              width={190}
-              height={70}
-            />
+            <Image unoptimized={true} alt="Logo | vvk construction" src="/img/vvklogo.png" width={190} height={70} />
           }
         />
       </div>
 
       {/* Offcanvas navigation menu */}
-      <div
-        id="offcanvas-nav"
-        data-bs-scroll="true"
-        className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
-      >
+      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         {/* Offcanvas header with close button and logo, visible on small screens */}
         <div className="offcanvas-header d-lg-none offcavas-bg">
           <NextLink
@@ -69,7 +57,7 @@ const Navbar = ({
             title={
               <Image
                 alt="Logo | vvk construction"
-                src={vvkLogo}
+                src="/img/vvklogo.png"
                 width={160}
                 height={60}
                 unoptimized={true}
@@ -165,9 +153,7 @@ const Navbar = ({
           </div>
         ) : (
           // Default container for navbar content
-          <div className="container flex-lg-row flex-nowrap align-items-center py-2">
-            {headerContent}
-          </div>
+          <div className="container flex-lg-row flex-nowrap align-items-center py-2">{headerContent}</div>
         )}
       </nav>
     </Fragment>

@@ -14,7 +14,7 @@ const WhyChoose = () => {
       <div className="order-lg-2 col-lg-6">
         <figure className="img-bg">
           <Image
-            src="/img/transforming-residential-construction-in-gambias.webp"
+            src="/img/worker.png"
             alt="Transforming Residential Construction in Location | vvk construction"
             width={600}
             height={700}

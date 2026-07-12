@@ -2,7 +2,7 @@ import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
 import Image from 'next/image';
 import { usefulLinks } from '../data.js';
-import vvkLogo from '../assets/images/vvkLogo.png';
+// import vvkLogo from '../assets/images/vvkLogo';
 
 /**
  * Widget component renders a titled list of links
@@ -14,7 +14,7 @@ const Widget = ({ list, title }) => (
     <h4 className="widget-title fs-18 mb-3 text-uppercase oswald">{title}</h4>
     <ul className="list-unstyled text-reset mb-0">
       {list.map(({ id, title, url }) => (
-        <li key={id} className='roboto'>
+        <li key={id} className="roboto">
           <NextLink href={url} title={title} />
         </li>
       ))}
@@ -29,13 +29,12 @@ const Footer = () => {
     <footer className="border-top footer-bg overflow-hidden">
       <div className="container pt-10 pt-md-12 pb-7">
         <div className="row gx-10 justify-content-around">
-
           {/* Logo and Company Description */}
           <div className="col-xl-3">
             <div className="widget d-flex flex-column align-items-center">
               <div className="mb-5 d-flex justify-content-md-center justify-content-xxl-start w-100">
                 <Image
-                  src={vvkLogo}
+                  src={'/img/vvklogo.png'}
                   alt="Logo | vvk construction"
                   width={200}
                   height={80}
@@ -69,15 +68,15 @@ const Footer = () => {
               <div className="d-flex mb-3 align-items-start">
                 <i className="uil uil-location-pin-alt fs-30 text-main" />
                 <address className="ms-2 m-0 mt-1 roboto">
-                  123 Main Street, Springfield, IL 62704 United States
+                  VVK Constructions, 75, Sivagangai Road, Opposite to ganesh fuels, Melur, Madurai – 625106.
                 </address>
               </div>
 
               {/* Email */}
               <div className="d-flex mb-3 align-items-center">
                 <i className="uil uil-envelope fs-26 text-main" />
-                <a href="mailto:vvk construction@gmail.com" className="link-body ms-2 roboto">
-                  vvk construction@gmail.com
+                <a href="mailto:info.vvkconstructions@gmail.com" className="link-body ms-2 roboto">
+                  info.vvkconstructions@gmail.com
                 </a>
               </div>
 
@@ -85,8 +84,7 @@ const Footer = () => {
               <div className="d-flex">
                 <i className="uil uil-phone-volume fs-26 text-main" />
                 <p className="mt-1 ms-2 fs-18 d-flex flex-column roboto">
-                  <a href="tel:+911234567890">+91 12345 67890</a>
-                  <a href="tel:+919876543210">+91 98765 43210</a>
+                  <a href="tel:+919597848123">+91 9597848123</a>
                 </p>
               </div>
             </div>
@@ -97,7 +95,7 @@ const Footer = () => {
             <div className="widget">
               <h4 className="widget-title fs-18 mb-3 text-uppercase oswald">Google Map</h4>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019594510314!2d-122.4194156846815!3d37.77492927975988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f3e74c6f%3A0x4211bbcc3de0b9f0!2sGeneral%20Hospital%20-%20San%20Francisco!5e0!3m2!1sen!2sus!4v1748419750000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.863252351181!2d78.33961697540208!3d10.028141472549105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00eb685608da3b%3A0xfd4835527228fc2c!2sVVK%20Constructions!5e0!3m2!1sen!2sus!4v1783884513611!5m2!1sen!2sus"
                 width="300"
                 height="250"
                 style={{ border: 0 }}
@@ -114,9 +112,7 @@ const Footer = () => {
 
           {/* Footer copyright */}
           <div className="d-md-flex align-items-center justify-content-center">
-            <p className="mb-2 mb-lg-0 text-center roboto">
-              © {currentYear} vvk construction. All rights reserved
-            </p>
+            <p className="mb-2 mb-lg-0 text-center roboto">© {currentYear} vvk construction. All rights reserved</p>
           </div>
         </div>
       </div>

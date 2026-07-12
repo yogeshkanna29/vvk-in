@@ -45,10 +45,10 @@ function MyApp({ Component, pageProps }) {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-          <title>VV Construction | Residential & Commercial Construction</title>
+          <title>VVK Construction | Residential & Commercial Construction</title>
           <meta
             name="description"
-            content="VV Construction delivers dependable residential and commercial construction, renovation, project management, and quality workmanship in your area."
+            content="VVK Construction delivers dependable residential and commercial construction, renovation, project management, and quality workmanship in your area."
           />
           <meta name="keywords" content="VVK Construction, construction company, building contractor, residential construction, commercial construction, renovation, civil construction, project management" />
           <meta name="robots" content="index, follow" />
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
           <meta property="og:title" content="VVK Construction | Built with Quality and Care" />
           <meta
             property="og:description"
-            content="Residential and commercial construction, renovations, and reliable project delivery by VV Construction."
+            content="Residential and commercial construction, renovations, and reliable project delivery by VVK Construction."
           />
 
           {/* Twitter Card tags */}
@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }) {
           <meta name="twitter:title" content="VVK Construction | Built with Quality and Care" />
           <meta
             name="twitter:description"
-            content="Explore VV Construction's residential, commercial, renovation, and civil construction services."
+            content="Explore VVK Construction's residential, commercial, renovation, and civil construction services."
           />
           <script
             type="application/ld+json"
@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }) {
               __html: JSON.stringify({
                 '@context': 'https://schema.org',
                 '@type': 'GeneralContractor',
-                name: 'VV Construction',
+                name: 'VVK Construction',
                 description: 'Residential and commercial construction, renovations, civil works, and project management.',
                 areaServed: 'Your service area',
                 email: 'vvconstruction@gmail.com',

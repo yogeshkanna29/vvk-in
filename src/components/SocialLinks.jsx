@@ -2,13 +2,24 @@
 const links = [
   {
     id: 1,
-    icon: 'uil uil-facebook-f',
-    url: 'https://www.facebook.com/'
+    icon: 'uil uil-linkedin',
+    url: 'https://www.linkedin.com/in/vivek-anand-b0bb68bb'
   },
+
   {
     id: 2,
-    icon: 'uil uil-linkedin',
-    url: 'https://www.linkedin.com/'
+    icon: 'uil uil-instagram',
+    url: 'https://www.instagram.com/vvkconstructions/?hl=en'
+  },
+  {
+    id: 3,
+    icon: 'uil uil-facebook',
+    url: 'https://www.facebook.com/vvk.constructions.9'
+  },
+  {
+    id: 4,
+    icon: 'uil uil-youtube',
+    url: 'https://www.youtube.com/'
   }
 ];
 

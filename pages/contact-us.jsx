@@ -3,8 +3,11 @@ import Head from 'next/head';
 const ContactUs = () => (
   <>
     <Head>
-      <title>Contact VV Construction | Request a Consultation</title>
-      <meta name="description" content="Contact VV Construction to discuss your residential, commercial, renovation, or civil construction requirements." />
+      <title>Contact VVK Construction | Request a Consultation</title>
+      <meta
+        name="description"
+        content="Contact VVK Construction to discuss your residential, commercial, renovation, or civil construction requirements."
+      />
     </Head>
     <main className="content-wrapper">
       <section className="wrapper bg-light">
@@ -19,10 +22,16 @@ const ContactUs = () => (
             <div className="col-lg-8">
               <div className="card shadow-lg">
                 <div className="card-body p-7 p-md-10 text-center">
-                  <h2 className="fs-28 oswald">Contact VV Construction</h2>
+                  <h2 className="fs-28 oswald">Contact VVK Construction</h2>
                   <p className="roboto">For a consultation or estimate, call or email our team.</p>
-                  <p className="mb-2 roboto"><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
-                  <p className="mb-0 roboto"><strong>Email:</strong> <a href="mailto:vvconstruction@gmail.com">vvconstruction@gmail.com</a></p>
+                  <p className="mb-0 roboto"><strong>Address:</strong> VVK Constructions, 75, Sivagangai Road,</p>
+                  <p className="mb-2 roboto">Opposite to ganesh fuels, Melur, Madurai – 625106.</p>
+                  <p className="mb-2 roboto">
+                    <strong>Phone:</strong> <a href="tel:+919597848123">+91 9597848123</a>
+                  </p>
+                  <p className="mb-0 roboto">
+                    <strong>Email:</strong> <a href="mailto:info.vvkconstructions@gmail.com">info.vvkconstructions@gmail.com</a>
+                  </p>
                 </div>
               </div>
             </div>

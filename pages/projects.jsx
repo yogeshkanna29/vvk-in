@@ -4,9 +4,9 @@ import { useState } from 'react';
 import NextLink from 'components/NextLink';
 
 const projects = [
-  { title: 'Modern Family Residence', category: 'Completed', image: '/img/welcome-to-constructions.webp', description: 'A durable, thoughtfully planned residential build.' },
-  { title: 'Residential Construction', category: 'Completed', image: '/img/transforming-residential-construction-in-gambias.webp', description: 'Quality workmanship from structure to finish.' },
-  { title: 'Commercial Building', category: 'In Progress', image: '/img/hero-bg.webp', description: 'A functional space being built for business growth.' },
+  { title: 'Maitreya Villa', category: 'Completed', image: '/img/projects/maitreya.jpg', description: 'Maitreya Villa is one of the most successful residential villa project in the Milestone of VVK constructions. This project in 4000 sq feet which comprises of 4 individual houses together with more special amenities in Superlative quality.Our Company again made the benchmark in completing the whole project within 6 months.Thanks to our Prestigious Client and the Owner of Maitreya villa Mr.P.Sivakumar who made everything easier to move forward in this huge project and thanks to my labour team for very faster sequencial work.We also employed the powerpacked special techniques for it’s strength and durability as well.' },
+  { title: 'SPK Home', category: 'Completed', image: '/img/projects/spk.jpg', description: 'SPK Home 2020 is loacted in the vellalore ,outskirt of madurai.This project is mainly for old age people.We customize everything to make easy and safe usage for the old people.It was really the best experience for our team to engaged with the traditional moral values of village people. We completed this whole project in 2 months alone.' },
+  { title: 'Diamond Villa', category: 'Completed', image: '/img/projects/diamondvilla.jpg', description: 'A functional space being built for business growth.' },
   { title: 'Home Renovation', category: 'In Progress', image: '/img/welcome-to-constructions.webp', description: 'A practical renovation designed around the family.' }
 ];
 
@@ -17,14 +17,14 @@ const Projects = () => {
   return (
     <>
     <Head>
-      <title>Construction Projects | VV Construction</title>
-      <meta name="description" content="Explore the types of residential, commercial, renovation, and civil construction projects delivered by VV Construction." />
+      <title>Construction Projects | VVK Construction</title>
+      <meta name="description" content="Explore the types of residential, commercial, renovation, and civil construction projects delivered by VVK Construction." />
     </Head>
     <main className="content-wrapper">
       <section className="wrapper bg-light">
         <div className="container py-12 py-md-14 text-center">
           <h1 className="display-4 mb-3 oswald">Our Projects</h1>
-          <p className="lead mb-0 roboto">A look at the spaces VV Construction is proud to build.</p>
+          <p className="lead mb-0 roboto">A look at the spaces VVK Construction is proud to build.</p>
         </div>
       </section>
       <section className="wrapper">
@@ -47,7 +47,7 @@ const Projects = () => {
                 <article className="card shadow-lg h-100">
                   <Image
                     src={project.image}
-                    alt={`${project.title} | VV Construction project`}
+                    alt={`${project.title} | VVK Construction project`}
                     width={700}
                     height={450}
                     unoptimized

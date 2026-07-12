@@ -15,8 +15,8 @@ const Home = () => {
 
       {/* Meta Information */}
       <Head>
-        <title>vvk construction – Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
-        <meta name="description" content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap" />
+        <title>vvk construction – Contractors, Builders & Construction Companies</title>
+        <meta name="description" content="builders, contractors & construction firms – built with Bootstrap" />
       </Head>
 
       <main className="content-wrapper overflow-hidden">
@@ -29,11 +29,11 @@ const Home = () => {
           <div className="container py-12 py-md-14">
             <About
               headingH1="Welcome to"
-              span="VV Construction"
-              para="VV Construction creates durable, functional spaces for families and businesses. From the first plan to the final handover, our team manages every stage with care, transparency, and attention to detail."
+              span="VVK Construction"
+              para="VVK Construction creates durable, functional spaces for families and businesses. From the first plan to the final handover, our team manages every stage with care, transparency, and attention to detail."
               para2="We provide residential construction, commercial building, renovation, civil works, and project management tailored to your requirements, budget, and timeline."
               imgPosition="left"
-              src="/img/welcome-to-constructions.webp"
+              src="/img/building.png"
             />
           </div>
         </section>

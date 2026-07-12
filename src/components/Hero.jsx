@@ -1,22 +1,31 @@
 import NextLink from "./NextLink";
-import heroImage from "../assets/images/hero1.jpeg";
+// import heroVideo from "../../public/videos/construction.mp4"; 
 
 const Hero = () => {
   return (
     <section>
       <div
-        className="swiper-container hero"
+        className="swiper-container hero position-relative overflow-hidden"
         style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
           minHeight: "90vh",
           width: "100%",
         }}
       >
+        {/* Background Video */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="hero-video"
+        >
+          <source src="/videos/construction.mp4" type="video/mp4" />
+        </video>
+
+        {/* Dark Overlay */}
         <div className="overlay"></div>
 
+        {/* Content */}
         <div className="container h-100 d-flex justify-content-center align-items-center position-relative z-2">
           <div className="row justify-content-center align-items-center">
             <div className="text-center">
