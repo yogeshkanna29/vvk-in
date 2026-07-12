@@ -79,18 +79,18 @@ function MyApp({ Component, pageProps }) {
                 name: 'VVK Construction',
                 description: 'Residential and commercial construction, renovations, civil works, and project management.',
                 areaServed: 'Your service area',
-                email: 'vvconstruction@gmail.com',
+                email: 'info.vvkconstructions@gmail.com',
                 telephone: '+91 98765 43210'
               })
             }}
           />
         </Head>
-        <Layout>
-          <ThemeProvider>
+        <ThemeProvider>
+          <Layout>
             {/* Show loader while app is loading */}
             {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
-          </ThemeProvider>
-        </Layout>
+          </Layout>
+        </ThemeProvider>
     </Fragment>
   );
 }

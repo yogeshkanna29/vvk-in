@@ -4,6 +4,7 @@ import useSticky from 'hooks/useSticky';
 import Image from 'next/image.js';
 import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
+import { useTheme } from 'theme/ThemeProvider';
 
 /**
  * Navbar component with sticky behavior, offcanvas menu, and responsive layout.
@@ -22,6 +23,7 @@ const Navbar = ({
 }) => {
   // Track if navbar should be sticky based on scroll position
   const sticky = useSticky(350);
+  const { theme, toggleTheme } = useTheme();
 
   // Ref to navbar DOM element, used to get height for sticky padding
   const navbarRef = useRef(null);
@@ -101,20 +103,33 @@ const Navbar = ({
               <div className="d-flex align-items-center mb-5">
                 <i className="uil uil-envelope fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-16 text-center m-0">
-                  <a href="mailto:vvk construction@gmail.com">vvk construction@gmail.com</a>
+                  <a href="mailto:info.vvkconstructions@gmail.com">info.vvkconstructions@gmail.com</a>
                 </p>
               </div>
               <div className="d-flex mb-5">
                 <i className="uil uil-phone-volume fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-18 text-center m-0 d-flex flex-column">
-                  <a href="tel:+919876543210">+91 98765 43210</a>
-                  <a href="tel:+911234567890">+91 12345 67890</a>
+                  <a href="tel:+919597848123">+91 9597848123</a>
                 </p>
               </div>
               <SocialLinks />
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="navbar-other d-flex align-items-center ms-auto">
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+          aria-pressed={theme === 'dark'}
+          title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+        >
+          <i className={`uil ${theme === 'dark' ? 'uil-sun' : 'uil-moon'}`} aria-hidden="true" />
+          <span className="visually-hidden">Switch to {theme === 'dark' ? 'light' : 'dark'} mode</span>
+        </button>
       </div>
 
       {/* Hamburger menu button for toggling offcanvas on small screens */}

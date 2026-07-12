@@ -5,6 +5,11 @@ export default class SandBox extends Document {
     return (
       <Html lang="en">
         <Head>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: "(function(){try{var theme=localStorage.getItem('vvk-theme');if(!theme){theme=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.theme=theme;}catch(e){}})();"
+            }}
+          />
           {/* Favicon and icons for different platforms */}
           <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
           <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />

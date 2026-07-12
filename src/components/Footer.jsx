@@ -111,8 +111,18 @@ const Footer = () => {
           <hr className="mt-4 mt-md-4 mb-7" />
 
           {/* Footer copyright */}
-          <div className="d-md-flex align-items-center justify-content-center">
-            <p className="mb-2 mb-lg-0 text-center roboto">© {currentYear} vvk construction. All rights reserved</p>
+          <div className="text-center roboto">
+            <p className="mb-1">© {currentYear} VVK Construction. All rights reserved.</p>
+
+            <a
+              href="https://yogeshkanna.framer.website/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold"
+              style={{ color: '#ff9800' }}
+            >
+              🚀 Crafted with ❤️ by YK
+            </a>
           </div>
         </div>
       </div>
