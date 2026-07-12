@@ -15,7 +15,7 @@ const Home = () => {
 
       {/* Meta Information */}
       <Head>
-        <title>Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
+        <title>vvk construction – Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
         <meta name="description" content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap" />
       </Head>
 
@@ -28,10 +28,10 @@ const Home = () => {
         <section className="wrapper">
           <div className="container py-12 py-md-14">
             <About
-              headingH1="Welcome to "
-              span="Buildify"
-              para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque obcaecati odit fuga, velit cum temporibus autem soluta mollitia saepe porro..."
-              para2="Excepturi accusamus delectus velit consequuntur! Eum quod modi velit aut molestias, cum animi voluptates eaque!"
+              headingH1="Welcome to"
+              span="VV Construction"
+              para="VV Construction creates durable, functional spaces for families and businesses. From the first plan to the final handover, our team manages every stage with care, transparency, and attention to detail."
+              para2="We provide residential construction, commercial building, renovation, civil works, and project management tailored to your requirements, budget, and timeline."
               imgPosition="left"
               src="/img/welcome-to-constructions.webp"
             />

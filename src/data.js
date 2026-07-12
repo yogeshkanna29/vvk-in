@@ -1,10 +1,10 @@
 // Navigation links used across the website
 export const usefulLinks = [
-  { id: 1, title: 'Home' },
-  { id: 2, title: 'About Us' },
-  { id: 3, title: 'Projects' },
-  { id: 4, title: 'Contact Us' }, // fixed id gap from 3 to 5
-  { id: 5, title: 'Privacy Policy' } // fixed id gap from 5 to 7
+  { id: 1, title: 'Home', url: '/' },
+  { id: 2, title: 'About Us', url: '/about-us' },
+  { id: 3, title: 'Projects', url: '/projects' },
+  { id: 4, title: 'Services', url: '/services' },
+  { id: 5, title: 'Contact Us', url: '/contact-us' }
 ];
 
 // Reasons to choose the company - could be shown on homepage or services page
@@ -13,23 +13,23 @@ export const whyChoose = [
     id: 1,
     title: 'Expert Craftsmanship',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos ipsa fuga assumenda, id amet possimus magni deleniti quam sequi explicabo.'
+      'Our skilled team uses sound construction practices and careful finishing to create spaces made to last.'
   },
   {
     id: 2,
     title: 'Timely Project Delivery',
     description:
-      'Deleniti, laudantium sequi voluptas deserunt, iste repellat doloribus natus nemo quibusdam, ullam consequatur omnis et nisi tempore totam? Aliquid quaerat quis.'
+      'We plan work carefully, keep you informed, and focus on delivering each project within the agreed schedule.'
   },
   {
     id: 3,
     title: 'Customer-Centric Approach',
     description:
-      'Libero hic asperiores fugit perspiciatis dignissimos itaque, placeat optio voluptates maxime nulla, magni aspernatur excepturi deserunt enim sapiente eveniet.'
+      'Your needs guide every decision, from practical layouts and materials to the details that make a space feel right.'
   },
   {
     id: 4,
     title: 'Commitment to Excellence',
-    description: 'Placeat optio voluptates maxime nulla, magni aspernatur excepturi deserunt enim sapiente eveniet.'
+    description: 'We take responsibility for quality, safety, and clear communication throughout the construction process.'
   }
 ];

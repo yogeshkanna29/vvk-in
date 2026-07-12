@@ -2,6 +2,7 @@ import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
 import Image from 'next/image';
 import { usefulLinks } from '../data.js';
+import vvkLogo from '../assets/images/vvkLogo.png';
 
 /**
  * Widget component renders a titled list of links
@@ -12,9 +13,9 @@ const Widget = ({ list, title }) => (
   <div className="widget">
     <h4 className="widget-title fs-18 mb-3 text-uppercase oswald">{title}</h4>
     <ul className="list-unstyled text-reset mb-0">
-      {list.map(({ id, title }) => (
+      {list.map(({ id, title, url }) => (
         <li key={id} className='roboto'>
-          <NextLink href="#" title={title} />
+          <NextLink href={url} title={title} />
         </li>
       ))}
     </ul>
@@ -34,8 +35,8 @@ const Footer = () => {
             <div className="widget d-flex flex-column align-items-center">
               <div className="mb-5 d-flex justify-content-md-center justify-content-xxl-start w-100">
                 <Image
-                  src="/img/logo.webp"
-                  alt="Logo | Buildify"
+                  src={vvkLogo}
+                  alt="Logo | vvk construction"
                   width={200}
                   height={80}
                   unoptimized={true} // Prevents Next.js image optimization
@@ -43,7 +44,7 @@ const Footer = () => {
                 />
               </div>
               <p className="lead mb-2 text-md-center text-xl-start fs-18 roboto">
-                Buildify is a trusted residential construction company in Location, delivering high-quality,
+                vvk construction is a trusted residential construction company in Location, delivering high-quality,
                 innovative, and reliable home-building solutions.
               </p>
             </div>
@@ -75,8 +76,8 @@ const Footer = () => {
               {/* Email */}
               <div className="d-flex mb-3 align-items-center">
                 <i className="uil uil-envelope fs-26 text-main" />
-                <a href="mailto:buildify@gmail.com" className="link-body ms-2 roboto">
-                  buildify@gmail.com
+                <a href="mailto:vvk construction@gmail.com" className="link-body ms-2 roboto">
+                  vvk construction@gmail.com
                 </a>
               </div>
 
@@ -114,7 +115,7 @@ const Footer = () => {
           {/* Footer copyright */}
           <div className="d-md-flex align-items-center justify-content-center">
             <p className="mb-2 mb-lg-0 text-center roboto">
-              © {currentYear} Buildify. All rights reserved
+              © {currentYear} vvk construction. All rights reserved
             </p>
           </div>
         </div>

@@ -33,7 +33,7 @@ const About = (props) => {
     } else {
       return (
         <Image
-          alt={`${headingH1 || heading} ${span} | Buildify`}
+          alt={`${headingH1 || heading} ${span} | vvk construction`}
           src={src}
           width={600}
           height={700}

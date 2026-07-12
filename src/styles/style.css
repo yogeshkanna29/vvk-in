@@ -3,15 +3,15 @@
 ==============================*/
 
 .text-main {
-  color: #eba10e !important;
+  color: #1463c3 !important;
 }
 
 .primary-bg {
-  background-color: #eba10e !important;
+  background-color: #1463c3 !important;
 }
 
 .primary-bg-soft {
-  background-color: #c7bfaf !important;
+  background-color: #e8f1ff !important;
 }
 
 /*==============================
@@ -56,7 +56,7 @@ a:hover,
 .dropdown-item:hover,
 .dropdown-item:focus,
 .widget ul li a:hover {
-  color: #eba10e !important;
+  color: #1463c3 !important;
   cursor: pointer !important;
 }
 .btn:hover {
@@ -97,7 +97,7 @@ section h2 {
 /* Highlighted span inside headings */
 h1 span,
 h2 span {
-  color: #eba10e !important;
+  color: #1463c3 !important;
   font-weight: bolder !important;
   font-size: 34px !important;
 }
@@ -161,7 +161,56 @@ h2 span {
   margin-bottom: 4px;
   margin-left: 8px;
   border-radius: 10px;
-  background-color: #eba10e !important;
-  border: 1px solid #eba10e;
+  background-color: #1463c3 !important;
+  border: 1px solid #1463c3;
 }
+
+/* Five-color paint-brush navigation */
+.navbar-nav .nav-paint {
+  --paint-color: #1463c3;
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0.45rem 1rem !important;
+  margin: 0 0.12rem;
+  border-radius: 5px 14px 7px 12px;
+  color: #26344a !important;
+  font-weight: 700;
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.navbar-nav .nav-paint::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 4px -3px 3px -4px;
+  background: var(--paint-color);
+  opacity: 0;
+  border-radius: 45% 12% 40% 18% / 20% 38% 16% 44%;
+  transform: scaleX(0.3) rotate(-2deg);
+  transform-origin: left center;
+  transition: opacity 180ms ease, transform 240ms ease;
+}
+
+.navbar-nav .nav-paint:hover,
+.navbar-nav .nav-paint:focus,
+.navbar-nav .nav-paint.active {
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.navbar-nav .nav-paint:hover::before,
+.navbar-nav .nav-paint:focus::before,
+.navbar-nav .nav-paint.active::before {
+  opacity: 1;
+  transform: scaleX(1) rotate(-2deg);
+}
+
+.navbar-nav .nav-paint-blue { --paint-color: #1463c3; }
+.navbar-nav .nav-paint-red { --paint-color: #d94545; }
+.navbar-nav .nav-paint-yellow { --paint-color: #d99a00; }
+.navbar-nav .nav-paint-green { --paint-color: #218c5b; }
+.navbar-nav .nav-paint-orange { --paint-color: #e97316; }
 

@@ -45,35 +45,45 @@ function MyApp({ Component, pageProps }) {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-          {/* TODO: Replace 'Location' and 'Construction' with your actual business info */}
-          <title>Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies</title>
+          <title>VV Construction | Residential & Commercial Construction</title>
           <meta
             name="description"
-            content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap"
+            content="VV Construction delivers dependable residential and commercial construction, renovation, project management, and quality workmanship in your area."
           />
+          <meta name="keywords" content="VVK Construction, construction company, building contractor, residential construction, commercial construction, renovation, civil construction, project management" />
+          <meta name="robots" content="index, follow" />
+          <meta name="author" content="VVK Construction" />
 
           {/* Open Graph tags for social sharing */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies" />
+          <meta property="og:site_name" content="VVK Construction" />
+          <meta property="og:title" content="VVK Construction | Built with Quality and Care" />
           <meta
             property="og:description"
-            content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap"
+            content="Residential and commercial construction, renovations, and reliable project delivery by VV Construction."
           />
-          {/* TODO: Replace with your actual website URL */}
-          <meta property="og:url" content="https://themixly.com/preview/192/construction-company-react-nextjs-template" />
-          {/* TODO: Replace with your actual image URL */}
-          <meta property="og:image" content="https://themixly.com/wp-content/uploads/2025/06/Buildify-Product-Detail-1-scaled.png" />
-          <meta property="og:image:secure_url" content="https://themixly.com/wp-content/uploads/2025/06/Buildify-Product-Detail-1-scaled.png" />
 
           {/* Twitter Card tags */}
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies" />
+          <meta name="twitter:title" content="VVK Construction | Built with Quality and Care" />
           <meta
             name="twitter:description"
-            content="Free Next.js website template for builders, contractors & construction firms – built with Bootstrap"
+            content="Explore VV Construction's residential, commercial, renovation, and civil construction services."
           />
-          {/* TODO: Replace with your actual image URL */}
-          <meta name="twitter:image" content="https://themixly.com/wp-content/uploads/2025/06/Buildify-Product-Detail-1-scaled.png" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'GeneralContractor',
+                name: 'VV Construction',
+                description: 'Residential and commercial construction, renovations, civil works, and project management.',
+                areaServed: 'Your service area',
+                email: 'vvconstruction@gmail.com',
+                telephone: '+91 98765 43210'
+              })
+            }}
+          />
         </Head>
         <Layout>
           <ThemeProvider>

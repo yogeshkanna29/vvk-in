@@ -4,6 +4,7 @@ import useSticky from 'hooks/useSticky';
 import Image from 'next/image.js';
 import NextLink from 'components/NextLink';
 import SocialLinks from 'components/SocialLinks';
+import vvkLogo from '../assets/images/vvkLogo.png';
 
 /**
  * Navbar component with sticky behavior, offcanvas menu, and responsive layout.
@@ -33,6 +34,9 @@ const Navbar = ({
   const fixedClassName =
     'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
 
+  const navLinkClass = (path, color) =>
+    `nav-link nav-paint nav-paint-${color}${router.pathname === path ? ' active' : ''}`;
+
   // Navbar main content: logo, offcanvas menu, hamburger button
   const headerContent = (
     <Fragment>
@@ -43,8 +47,8 @@ const Navbar = ({
           title={
             <Image
               unoptimized={true}
-              alt="Logo | Buildify"
-              src="/img/logo.webp"
+              alt="Logo | vvk construction"
+              src={vvkLogo}
               width={190}
               height={70}
             />
@@ -64,8 +68,8 @@ const Navbar = ({
             href="/"
             title={
               <Image
-                alt="Logo | Buildify"
-                src="/img/logo.webp"
+                alt="Logo | vvk construction"
+                src={vvkLogo}
                 width={160}
                 height={60}
                 unoptimized={true}
@@ -87,16 +91,19 @@ const Navbar = ({
           <ul className="navbar-nav align-items-lg-center">
             {/* Each nav item closes offcanvas on click */}
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="/" title="Home" className="nav-link" />
+              <NextLink href="/" title="Home" className={navLinkClass('/', 'red')} />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="About Us" className="nav-link" />
+              <NextLink href="/about-us" title="About Us" className={navLinkClass('/about-us', 'orange')} />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Projects" className="nav-link" />
+              <NextLink href="/projects" title="Projects" className={navLinkClass('/projects', 'blue')} />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Contact Us" className="nav-link" />
+              <NextLink href="/services" title="Services" className={navLinkClass('/services', 'yellow')} />
+            </li>
+            <li className="nav-item" data-bs-dismiss="offcanvas">
+              <NextLink href="/contact-us" title="Contact Us" className={navLinkClass('/contact-us', 'green')} />
             </li>
           </ul>
 
@@ -106,7 +113,7 @@ const Navbar = ({
               <div className="d-flex align-items-center mb-5">
                 <i className="uil uil-envelope fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-16 text-center m-0">
-                  <a href="mailto:buildify@gmail.com">buildify@gmail.com</a>
+                  <a href="mailto:vvk construction@gmail.com">vvk construction@gmail.com</a>
                 </p>
               </div>
               <div className="d-flex mb-5">

@@ -29,7 +29,13 @@
     color: #000 !important;
   }
   .offcanvas-nav .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
-    color: #eba10e !important;
+    color: #1463c3 !important;
+  }
+
+  .offcanvas-nav .offcanvas-body .navbar-nav .nav-item .nav-paint:hover,
+  .offcanvas-nav .offcanvas-body .navbar-nav .nav-item .nav-paint:focus,
+  .offcanvas-nav .offcanvas-body .navbar-nav .nav-item .nav-paint.active {
+    color: #fff !important;
   }
 
   /* Offcanvas footer text color */

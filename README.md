@@ -9,15 +9,15 @@
   <link rel="canonical" href="https://github.com/themixlyweb/nextjs-construction-website-template" />
 </head>
 <body>
-<h1>Buildify – Free Next.js Website Template for Contractors, Builders & Construction Companies</h1>
+<h1>vvk construction – Free Next.js Website Template for Contractors, Builders & Construction Companies</h1>
 
 <h2>Introduction</h2>
-<p>Buildify is a free, modern, and fully responsive Next.js & React template designed for construction companies, contractors, builders, and engineering firms. Built with React 18+, Next.js 14+, Bootstrap 5, and SCSS, it helps you launch a fast, SEO-friendly, and professional website for showcasing services, projects, teams, and more — all with clean code and a mobile-first layout.
+<p>vvk construction is a free, modern, and fully responsive Next.js & React template designed for construction companies, contractors, builders, and engineering firms. Built with React 18+, Next.js 14+, Bootstrap 5, and SCSS, it helps you launch a fast, SEO-friendly, and professional website for showcasing services, projects, teams, and more — all with clean code and a mobile-first layout.
 </p>
 
 <h2>🔗 Live Preview & Download</h2>
 <ul>
-  <li>🚀 <a href="https://themixly.com/preview/192/construction-company-react-nextjs-template" target="_blank"> Live Demo – Buildify Template</a></li>
+  <li>🚀 <a href="https://themixly.com/preview/192/construction-company-react-nextjs-template" target="_blank"> Live Demo – vvk construction Template</a></li>
   <li>📦 <a href="https://github.com/themixlyweb/nextjs-construction-website-template" target="_blank"> Download from GitHub (Free)</a></li>
 </ul>
 
@@ -66,15 +66,15 @@
 <h2>📸 Screenshots</h2>
 <figure>
   <figcaption>Includes pages like Home, About Us, Projects and Contact</figcaption><br/>
-  <img src="https://themixly.com/wp-content/uploads/2025/06/Buildify-Product-Detail-2-scaled.png" alt="Buildify Template Pages Screenshot">
+  <img src="https://themixly.com/wp-content/uploads/2025/06/vvk construction-Product-Detail-2-scaled.png" alt="vvk construction Template Pages Screenshot">
 </figure>
 
 <figure>
   <figcaption>Responsive layout built for desktop, tablet, and mobile devices</figcaption><br/>
-  <img src="https://themixly.com/wp-content/uploads/2025/06/Buildify-Product-Detail-1-scaled.png" alt="Buildify Responsive Layout">
+  <img src="https://themixly.com/wp-content/uploads/2025/06/vvk construction-Product-Detail-1-scaled.png" alt="vvk construction Responsive Layout">
 </figure>
 
-<h2>✨ Why Choose Buildify?</h2>
+<h2>✨ Why Choose vvk construction?</h2>
 <ul>
   <li>Built for speed and performance with minimal dependencies</li>
   <li>Construction-focused layout with pre-designed UI blocks</li>
@@ -100,7 +100,7 @@ npm run build     # Build for production</code></pre>
 
 <h3>📁 Folder Structure</h3>
 
-<pre><code>Buildify/
+<pre><code>vvk construction/
 ├── pages/
 ├── public/
 │   ├── images/
