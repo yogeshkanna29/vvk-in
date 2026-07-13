@@ -127,7 +127,13 @@ const Navbar = ({
           aria-pressed={theme === 'dark'}
           title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
         >
-          <i className={`uil ${theme === 'dark' ? 'uil-sun' : 'uil-moon'}`} aria-hidden="true" />
+          <span className="theme-toggle-track" aria-hidden="true">
+            <i className="uil uil-sun theme-toggle-sun" />
+            <i className="uil uil-moon theme-toggle-moon" />
+            <span className="theme-toggle-thumb">
+              <i className={`uil ${theme === 'dark' ? 'uil-moon' : 'uil-sun'}`} />
+            </span>
+          </span>
           <span className="visually-hidden">Switch to {theme === 'dark' ? 'light' : 'dark'} mode</span>
         </button>
       </div>
