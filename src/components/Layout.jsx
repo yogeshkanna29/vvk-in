@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import WhatsAppButton from './WhatsAppButton';
 
 /**
  * Layout component wraps the page content with
@@ -19,6 +20,8 @@ const Layout = ({ children }) => {
 
       {/* Site footer */}
       <Footer />
+
+      <WhatsAppButton />
     </React.Fragment>
   );
 };
