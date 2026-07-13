@@ -19,7 +19,7 @@ const Hero = () => {
           playsInline
           className="hero-video"
         >
-          <source src="/videos/construction.mp4" type="video/mp4" />
+          <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
 
         {/* Dark Overlay */}
