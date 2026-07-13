@@ -15,7 +15,7 @@ const WhyChoose = () => {
         <figure className="img-bg">
           <Image
             src="/img/worker.png"
-            alt="Transforming Residential Construction in Location | vvk construction"
+            alt="Residential construction contractor serving Melur, Madurai and Coimbatore"
             width={600}
             height={700}
             unoptimized={true} // disables Next.js optimization for this image
@@ -33,8 +33,8 @@ const WhyChoose = () => {
 
         {/* Main headline */}
         <h2 className="mb-5 mt-3 justify-content-start oswald">
-          Transforming Residential
-          <span className="ms-2"> Construction</span> in Location
+          Residential Construction
+          <span className="ms-2"> in Melur, Madurai &amp; Coimbatore</span>
         </h2>
 
         {/* List of reasons with icons */}

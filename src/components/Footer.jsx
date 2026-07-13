@@ -43,8 +43,7 @@ const Footer = () => {
                 />
               </div>
               <p className="lead mb-2 text-md-center text-xl-start fs-18 roboto">
-                vvk construction is a trusted residential construction company in Location, delivering high-quality,
-                innovative, and reliable home-building solutions.
+                VVK Construction is a trusted civil contractor based in Melur, serving Madurai, Coimbatore and nearby areas with residential and commercial construction solutions.
               </p>
             </div>
 

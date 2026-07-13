@@ -17,8 +17,8 @@ const Projects = () => {
   return (
     <>
     <Head>
-      <title>Construction Projects | VVK Construction</title>
-      <meta name="description" content="Explore the types of residential, commercial, renovation, and civil construction projects delivered by VVK Construction." />
+      <title>Construction Projects in Madurai & Melur | VVK Construction</title>
+      <meta name="description" content="Explore residential, commercial, renovation and civil construction projects by VVK Construction, a contractor serving Melur, Madurai and Coimbatore." />
     </Head>
     <main className="content-wrapper">
       <section className="wrapper bg-light">

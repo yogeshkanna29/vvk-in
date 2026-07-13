@@ -4,14 +4,14 @@ import About from 'components/About';
 const AboutUs = () => (
   <>
     <Head>
-      <title>About VVK Construction | Building with Care</title>
-      <meta name="description" content="Learn about VVK Construction, our commitment to quality workmanship, transparent communication, and dependable project delivery." />
+      <title>About Our Civil Contracting Team | VVK Construction, Melur</title>
+      <meta name="description" content="Learn about VVK Construction, a Melur-based civil contractor serving Madurai and Coimbatore with quality workmanship and dependable project delivery." />
     </Head>
     <main className="content-wrapper">
       <section className="wrapper bg-light">
         <div className="container py-12 py-md-14 text-center">
           <h1 className="display-4 mb-3 oswald">About VVK Construction</h1>
-          <p className="lead mb-0 roboto">Reliable construction solutions, built around your vision.</p>
+          <p className="lead mb-0 roboto">Melur-based construction expertise for Madurai, Coimbatore and nearby communities.</p>
         </div>
       </section>
       <section className="wrapper">

@@ -102,7 +102,7 @@ const Navbar = ({
             <div>
               <div className="d-flex align-items-center mb-5">
                 <i className="uil uil-envelope fs-32 text-main bg-white rounded-circle me-2" />
-                <p className="fs-16 text-center m-0">
+                <p className="fs-14 text-center m-0">
                   <a href="mailto:info.vvkconstructions@gmail.com">info.vvkconstructions@gmail.com</a>
                 </p>
               </div>

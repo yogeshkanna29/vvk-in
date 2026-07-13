@@ -39,10 +39,10 @@ const services = [
 const Services = () => (
   <>
     <Head>
-      <title>Construction Services | VVK Construction</title>
+      <title>Construction Services in Melur, Madurai & Coimbatore | VVK Construction</title>
       <meta
         name="description"
-        content="Explore VVK Construction services including residential construction, commercial projects, RCC works, renovation, sustainable solutions, and civil engineering services."
+        content="Explore residential construction, commercial building, RCC works, renovation and civil contracting services in Melur, Madurai and Coimbatore from VVK Construction."
       />
     </Head>
 
@@ -56,8 +56,8 @@ const Services = () => (
           </h1>
 
           <p className="lead mb-0 roboto">
-            Professional construction solutions from planning and design to
-            final handover.
+            Residential, commercial and civil construction solutions for Melur,
+            Madurai and Coimbatore, from planning to final handover.
           </p>
         </div>
       </section>

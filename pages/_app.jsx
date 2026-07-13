@@ -48,9 +48,9 @@ function MyApp({ Component, pageProps }) {
           <title>VVK Construction | Residential & Commercial Construction</title>
           <meta
             name="description"
-            content="VVK Construction delivers dependable residential and commercial construction, renovation, project management, and quality workmanship in your area."
+            content="VVK Construction is a civil contractor for residential, commercial, renovation and RCC work in Melur, Madurai and Coimbatore."
           />
-          <meta name="keywords" content="VVK Construction, construction company, building contractor, residential construction, commercial construction, renovation, civil construction, project management" />
+          <meta name="keywords" content="civil contractor Melur, construction company Madurai, building contractor Madurai, construction company Coimbatore, residential construction, commercial construction, RCC work, home renovation" />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="VVK Construction" />
 
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
           <meta property="og:title" content="VVK Construction | Built with Quality and Care" />
           <meta
             property="og:description"
-            content="Residential and commercial construction, renovations, and reliable project delivery by VVK Construction."
+            content="Civil construction, home building, commercial projects and renovations in Melur, Madurai and Coimbatore."
           />
 
           {/* Twitter Card tags */}
@@ -77,10 +77,32 @@ function MyApp({ Component, pageProps }) {
                 '@context': 'https://schema.org',
                 '@type': 'GeneralContractor',
                 name: 'VVK Construction',
-                description: 'Residential and commercial construction, renovations, civil works, and project management.',
-                areaServed: 'Your service area',
+                description: 'Civil contractor providing residential construction, commercial construction, renovations, RCC work and project management in Melur, Madurai and Coimbatore.',
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: '75, Sivagangai Road, Opposite Ganesh Fuels',
+                  addressLocality: 'Melur',
+                  addressRegion: 'Tamil Nadu',
+                  postalCode: '625106',
+                  addressCountry: 'IN'
+                },
+                geo: {
+                  '@type': 'GeoCoordinates',
+                  latitude: 10.028141472549105,
+                  longitude: 78.33961697540208
+                },
+                areaServed: [
+                  { '@type': 'City', name: 'Melur' },
+                  { '@type': 'City', name: 'Madurai' },
+                  { '@type': 'City', name: 'Coimbatore' }
+                ],
                 email: 'info.vvkconstructions@gmail.com',
-                telephone: '+91 98765 43210'
+                telephone: '+91 95978 48123',
+                sameAs: [
+                  'https://www.instagram.com/vvkconstructions/',
+                  'https://www.facebook.com/vvk.constructions.9',
+                  'https://www.linkedin.com/in/vivek-anand-b0bb68bb'
+                ]
               })
             }}
           />

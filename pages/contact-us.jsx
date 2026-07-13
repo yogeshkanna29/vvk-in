@@ -3,17 +3,17 @@ import Head from 'next/head';
 const ContactUs = () => (
   <>
     <Head>
-      <title>Contact VVK Construction | Request a Consultation</title>
+      <title>Contact a Civil Contractor in Melur & Madurai | VVK Construction</title>
       <meta
         name="description"
-        content="Contact VVK Construction to discuss your residential, commercial, renovation, or civil construction requirements."
+        content="Contact VVK Construction in Melur to discuss residential, commercial, renovation, RCC or civil construction work in Madurai, Coimbatore and nearby areas."
       />
     </Head>
     <main className="content-wrapper">
       <section className="wrapper bg-light">
         <div className="container py-12 py-md-14 text-center">
           <h1 className="display-4 mb-3 oswald">Let&apos;s Build Together</h1>
-          <p className="lead mb-0 roboto">Tell us about your construction project and we&apos;ll be glad to help.</p>
+          <p className="lead mb-0 roboto">Discuss your project in Melur, Madurai, Coimbatore or nearby areas with our construction team.</p>
         </div>
       </section>
       <section className="wrapper">

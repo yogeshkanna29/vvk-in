@@ -15,8 +15,10 @@ const Home = () => {
 
       {/* Meta Information */}
       <Head>
-        <title>vvk construction – Contractors, Builders & Construction Companies</title>
-        <meta name="description" content="builders, contractors & construction firms – built with Bootstrap" />
+        <title>Civil Contractor in Melur, Madurai & Coimbatore | VVK Construction</title>
+        <meta name="description" content="VVK Construction provides residential construction, commercial building, RCC work, renovation and civil contracting in Melur, Madurai and Coimbatore." />
+        <meta property="og:title" content="Civil Contractor in Melur, Madurai & Coimbatore | VVK Construction" />
+        <meta property="og:description" content="Residential, commercial and civil construction services delivered with quality workmanship across Melur, Madurai and Coimbatore." />
       </Head>
 
       <main className="content-wrapper overflow-hidden">
@@ -30,8 +32,8 @@ const Home = () => {
             <About
               headingH1="Welcome to"
               span="VVK Construction"
-              para="VVK Construction creates durable, functional spaces for families and businesses. From the first plan to the final handover, our team manages every stage with care, transparency, and attention to detail."
-              para2="We provide residential construction, commercial building, renovation, civil works, and project management tailored to your requirements, budget, and timeline."
+              para="VVK Construction is a trusted civil contractor based in Melur, serving homeowners and businesses in Madurai, Coimbatore and nearby Tamil Nadu communities. From the first plan to the final handover, our team manages every stage with care, transparency and attention to detail."
+              para2="We provide residential construction, commercial building, renovation, RCC and civil works, and project management tailored to your requirements, budget and timeline."
               imgPosition="left"
               src="/img/building.png"
             />
