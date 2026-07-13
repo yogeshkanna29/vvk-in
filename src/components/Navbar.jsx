@@ -108,7 +108,7 @@ const Navbar = ({
               </div>
               <div className="d-flex mb-5">
                 <i className="uil uil-phone-volume fs-32 text-main bg-white rounded-circle me-2" />
-                <p className="fs-18 text-center m-0 d-flex flex-column">
+                <p className="fs-14 text-center m-0 d-flex flex-column">
                   <a href="tel:+919597848123">+91 9597848123</a>
                 </p>
               </div>
